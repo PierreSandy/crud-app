@@ -4,6 +4,8 @@ const morgan = require('morgan');
 const bodyparser = require("body-parser");
 const path = require('path');
 
+
+// Connection status
 const connectDB = require('./server/database/connection');
 
 const app = express();
